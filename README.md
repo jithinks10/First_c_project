@@ -1,11 +1,11 @@
 # First C Project - Number Guessing Game
 
-A simple number guessing game written in C.
+A simple number guessing game in C.
 
-## How to run
+## Files
+- guess_game.c
 
-### Compile
-gcc guess_game.c -o guess_game
-
-### Execute
-./guess_game
+## How it works
+- Computer picks a random number from 1 to 100
+- User keeps guessing
+- Program tells "Too high" / "Too low" until correct
